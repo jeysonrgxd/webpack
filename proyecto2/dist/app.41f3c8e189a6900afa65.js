@@ -20,7 +20,7 @@
 /*! runtime requirements: __webpack_require__.r, __webpack_exports__, __webpack_require__.d, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"SayHi\": () => /* binding */ SayHi\n/* harmony export */ });\nfunction SayHi(){\r\n   document.getElementById(\"app\").textContent = \"Vamos avanzando x2\"\r\n}\n\n//# sourceURL=webpack://proyecto2/./src/h1.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"SayHi\": () => /* binding */ SayHi\n/* harmony export */ });\nfunction SayHi() {\n  document.getElementById(\"app\").textContent = \"Vamos avanzando x5\";\n}\n\n//# sourceURL=webpack://proyecto2/./src/h1.js?");
 
 /***/ }),
 
@@ -33,7 +33,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /*! runtime requirements: __webpack_require__, __webpack_require__.r, __webpack_exports__, __webpack_require__.* */
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _h1__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./h1 */ \"./src/h1.js\");\n\r\n;(0,_h1__WEBPACK_IMPORTED_MODULE_0__.SayHi)()\n\n//# sourceURL=webpack://proyecto2/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _h1__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./h1 */ \"./src/h1.js\");\n\n(0,_h1__WEBPACK_IMPORTED_MODULE_0__.SayHi)();\n\n//# sourceURL=webpack://proyecto2/./src/index.js?");
 
 /***/ })
 

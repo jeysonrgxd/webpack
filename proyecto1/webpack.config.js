@@ -1,5 +1,16 @@
 const path = require('path')
 
+const cssRules = {
+   // busca todos los archivos que tienen la extencion .css
+   test: /\.css$/,
+
+   // despues usar los loaders 
+   use: [
+      'style-loader',
+      'css-loader'
+   ]
+}
+
 module.exports = {
    // ubicamos el archivo donde por asi decirlo compilara otimizara webpack 
    entry: './src/index.js',
@@ -13,16 +24,7 @@ module.exports = {
    },
    module:{
       rules:[
-         {
-            // busca todos los archivos que tienen la extencion .css
-            test:/\.css$/,
-
-            // despues usar los loaders 
-            use:[
-               'style-loader',
-               'css-loader'
-            ]
-         }
+         cssRules
       ]
    }
 

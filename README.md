@@ -19,3 +19,16 @@ npx webpack
 ```
 -  Primero especificamos el punto de entrada de la aplicacion
 - Output donde pondra la aplicacion por asi decirlo compilado
+- loaders: transforma nuestro ficheros como para entender en diferentes navegores, etc.
+- plugins : ejecutar codigo en diferentes puntos de webpack (hooks de webpack)
+
+Instalar babel para compilar nuestro javascript y hacerlo compatible con todo los navegdores
+
+```
+npm install -D babel-loader @babel/core @babel/preset-env webpack
+
+```
+HTML Webpack Plugin  esto no sirve para crearnos un archivo index.html de salida la cual podemos configurar para que le inserte automaticamente el archivo js que compilamos ademas le podemos especificar una plantilla que sera de nuestro src
+```
+npm i --save-dev html-webpack-plugin
+```
