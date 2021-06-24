@@ -1,3 +1,3 @@
-export function SayHi(){
-   document.getElementById("app").textContent = "Vamos avanzando x5"
+export function SayHi() {
+   document.getElementById("app").textContent = "Vamos avanzando x6"
 }

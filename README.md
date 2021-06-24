@@ -30,5 +30,12 @@ npm install -D babel-loader @babel/core @babel/preset-env webpack
 ```
 HTML Webpack Plugin  esto no sirve para crearnos un archivo index.html de salida la cual podemos configurar para que le inserte automaticamente el archivo js que compilamos ademas le podemos especificar una plantilla que sera de nuestro src
 ```
-npm i --save-dev html-webpack-plugin
+npm i --save-dev html-webpack-plugin       midudev
+ 
+npm i -D html-loader html-webpack-plugin   jonmircha
 ```
+
+loader para css
+ ```
+npm i -D mini-css-extract-plugin css-loader
+ ```
