@@ -1,5 +1,30 @@
+@font-face {
+    font-family: avenir;
+    src: url(./assets/avenir.otf);
+}
+
 html{
     box-sizing: border-box;
     font-family: sans-serif;
     font-size: 16px;
+    background-color: #2b3a42;
+    color:#8dd6f9;
 }
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+*{
+    font-family: avenir;
+}
+
+.icon{
+    max-width: 4rem;
+}
+

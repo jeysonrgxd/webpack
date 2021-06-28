@@ -36,6 +36,18 @@ npm i -D html-loader html-webpack-plugin   jonmircha
 ```
 
 loader para css
- ```
+```
 npm i -D mini-css-extract-plugin css-loader
- ```
+```
+
+Servidor de desarrollo de webpack
+
+```
+npm i -D webpack-dev-server
+```
+
+Manejo de archivos y lectura de archivos
+
+```
+npm i -D file-loader
+```
