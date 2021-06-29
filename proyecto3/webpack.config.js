@@ -32,14 +32,19 @@ module.exports = {
          {
             test: /\.css$/i,
             use: [
-               MiniCssExtractPlugin.loader,
+               {
+                  loader: MiniCssExtractPlugin.loader,
+                  options: {
+                     publicPath: "./"
+                  }
+               },
                'css-loader'
             ]
 
          },
          {
             test: /\.(jpe?g|png|gif|svg|webp)$/i,
-            use: ["file-loader?name=assets/[name].[ext]"]
+            use: ["file-loader?name=assets/[name].[ext]", "image-webpack-loader"]
 
          },
          {

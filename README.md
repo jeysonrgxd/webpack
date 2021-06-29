@@ -51,3 +51,9 @@ Manejo de archivos y lectura de archivos
 ```
 npm i -D file-loader
 ```
+
+Loader para optimizar imagenes
+
+```
+npm i -D image-webpack-loader
+```
