@@ -3,8 +3,6 @@ import { saludar } from './otroarchivo.js'
 import logo from './assets/olapequena.svg'
 import presidente from './assets/presidente-atras.png'
 
-import { HelloWord } from './components/HelloWord.js'
-
 import Swal from 'sweetalert2'
 
 // importamos json
@@ -45,9 +43,7 @@ data.links.forEach(el => { menu += `<a href="${el[1]}">${el[0]}</a>` })
 
 $logo.classList.add("icon")
 
-let saludoClass = new HelloWord("jeyson")
-
-$h1.textContent = saludoClass.saludar()
+$h1.textContent = "Hola mundo con webpack"
 $logo.src = logo
 $img.src = presidente
 $nav.innerHTML = menu

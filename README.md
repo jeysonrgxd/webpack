@@ -57,3 +57,9 @@ Loader para optimizar imagenes
 ```
 npm i -D image-webpack-loader
 ```
+
+TypeScript, ts-loader es el cargador con el webpack gestiona y interpreta typescript
+
+```
+npm i -D typescript ts-loader
+```

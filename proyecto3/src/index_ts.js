@@ -1,16 +1,11 @@
 import style from './style.css'
-import { saludar } from './otroarchivo.js'
 import logo from './assets/olapequena.svg'
 import presidente from './assets/presidente-atras.png'
-
-import { HelloWord } from './components/HelloWord.js'
-
 import Swal from 'sweetalert2'
-
 // importamos json
 import data from './data.json'
 
-const arr = [1, 2, 3, 4]
+import { HelloWord } from './components/HelloWord.ts'
 
 const button = document.getElementById("saludar")
 
@@ -20,16 +15,6 @@ button.onclick = () => {
       text: "Hola como estas"
    })
 }
-
-const codeESNext = () => console.log(...arr)
-
-const app = document.getElementById("app")
-
-console.log("Hola mundo sin configuración con Webpack x2 👌")
-
-codeESNext()
-
-console.log(app)
 
 // document.getElementById("app").innerHTML = `<img src="${logo}" alt="Webpack" />`
 const d = document,
@@ -45,9 +30,9 @@ data.links.forEach(el => { menu += `<a href="${el[1]}">${el[0]}</a>` })
 
 $logo.classList.add("icon")
 
-let saludoClass = new HelloWord("jeyson")
+let hello = new HelloWord("typescript")
 
-$h1.textContent = saludoClass.saludar()
+$h1.textContent = hello.saludar()
 $logo.src = logo
 $img.src = presidente
 $nav.innerHTML = menu

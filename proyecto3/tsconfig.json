@@ -1,0 +1,11 @@
+{
+   "compilerOptions": {
+      "outDir": "./dist/",
+      "noImplicitAny": true,
+      "module": "es6", //codigo moderno
+      "target": "es5", //esto nos bota en el dist osea se genera en la compilacion
+      "jsx": "react",
+      "allowJs": true,
+      "moduleResolution": "node",
+   }
+}
