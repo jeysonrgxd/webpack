@@ -1,6 +1,7 @@
 // devemos decirle que preset de babel bamos a utilizar
 {
     "presets": [
-        "@babel/preset-env"
+        "@babel/preset-env",
+        "@babel/preset-react"
     ]
 }

@@ -63,3 +63,10 @@ TypeScript, ts-loader es el cargador con el webpack gestiona y interpreta typesc
 ```
 npm i -D typescript ts-loader
 ```
+
+Instalamos react y react-dom y los preset de babel para poder trabajar o transpilar el codigo jsx
+
+```
+npm i react react-dom
+npm i -D @babel/preset-react
+```

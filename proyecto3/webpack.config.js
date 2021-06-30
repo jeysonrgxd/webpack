@@ -18,7 +18,7 @@ module.exports = {
          // esto son reglas
          {
             // que archivos soprtara esta regla
-            test: /\.js$/i,
+            test: /\.jsx?$/i,
             exclude: /node_modules/,
             use: {
                loader: 'babel-loader',
